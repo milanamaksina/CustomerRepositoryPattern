@@ -1,0 +1,12 @@
+C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositoryPattern\bin\Debug\net6.0\CustomerRepositoryPattern.deps.json
+C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositoryPattern\bin\Debug\net6.0\CustomerRepositoryPattern.dll
+C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositoryPattern\bin\Debug\net6.0\CustomerRepositoryPattern.pdb
+C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositoryPattern\obj\Debug\net6.0\CustomerRepositoryPattern.csproj.AssemblyReference.cache
+C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositoryPattern\obj\Debug\net6.0\CustomerRepositoryPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositoryPattern\obj\Debug\net6.0\CustomerRepositoryPattern.AssemblyInfoInputs.cache
+C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositoryPattern\obj\Debug\net6.0\CustomerRepositoryPattern.AssemblyInfo.cs
+C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositoryPattern\obj\Debug\net6.0\CustomerRepositoryPattern.csproj.CoreCompileInputs.cache
+C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositoryPattern\obj\Debug\net6.0\CustomerRepositoryPattern.dll
+C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositoryPattern\obj\Debug\net6.0\refint\CustomerRepositoryPattern.dll
+C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositoryPattern\obj\Debug\net6.0\CustomerRepositoryPattern.pdb
+C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositoryPattern\obj\Debug\net6.0\ref\CustomerRepositoryPattern.dll
