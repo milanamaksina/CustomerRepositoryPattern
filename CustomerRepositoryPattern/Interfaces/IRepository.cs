@@ -8,9 +8,9 @@ namespace CustomerRepositoryPattern.Interfaces
 {
     public interface IRepository<TEntity>
     {
-        public int Create(TEntity entity);
-        public TEntity Read(int entityId);
-        public void Update(TEntity entity);
-        public void Delete(int entityId);
+        int Create(TEntity entity);
+        TEntity Read(int entityId);
+        void Update(TEntity entity);
+        void Delete(int entityId);
     }
 }

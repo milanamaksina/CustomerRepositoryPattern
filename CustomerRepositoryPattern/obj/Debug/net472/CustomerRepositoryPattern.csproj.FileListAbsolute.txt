@@ -1,0 +1,11 @@
+C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositoryPattern\obj\Debug\net472\CustomerRepositoryPattern.csproj.AssemblyReference.cache
+C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositoryPattern\obj\Debug\net472\CustomerRepositoryPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositoryPattern\obj\Debug\net472\CustomerRepositoryPattern.AssemblyInfoInputs.cache
+C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositoryPattern\obj\Debug\net472\CustomerRepositoryPattern.AssemblyInfo.cs
+C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositoryPattern\obj\Debug\net472\CustomerRepositoryPattern.csproj.CoreCompileInputs.cache
+C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositoryPattern\bin\Debug\net472\CustomerRepositoryPattern.dll
+C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositoryPattern\bin\Debug\net472\CustomerRepositoryPattern.pdb
+C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositoryPattern\bin\Debug\net472\System.Data.SqlClient.dll
+C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositoryPattern\obj\Debug\net472\CustomerRepositoryPattern.csproj.CopyComplete
+C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositoryPattern\obj\Debug\net472\CustomerRepositoryPattern.dll
+C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositoryPattern\obj\Debug\net472\CustomerRepositoryPattern.pdb

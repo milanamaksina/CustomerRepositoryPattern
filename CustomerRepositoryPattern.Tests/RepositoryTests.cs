@@ -1,5 +1,6 @@
 using CustomerRepositoryPattern.Entities;
 using CustomerRepositoryPattern.Repositories;
+using Xunit;
 
 namespace CustomerRepositoryPattern.Tests
 {

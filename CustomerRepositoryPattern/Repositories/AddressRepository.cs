@@ -1,5 +1,7 @@
 ﻿using CustomerRepositoryPattern.Entities;
 using CustomerRepositoryPattern.Interfaces;
+using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 
@@ -87,7 +89,7 @@ namespace CustomerRepositoryPattern.Repositories
                     {
                         var addressType = reader["AddressType"]?.ToString();
 
-                        if (addressType is not null)
+                        if (addressType != null)
                         {
                             return new Address()
                             {
@@ -108,7 +110,7 @@ namespace CustomerRepositoryPattern.Repositories
             return null;
 
         }
-
+        
         public List<Address> ReadAll()
         {
             List<Address> foundAddresses = new List<Address>();
@@ -125,7 +127,7 @@ namespace CustomerRepositoryPattern.Repositories
                     {
                         var addressType = reader["AddressType"]?.ToString();
 
-                        if (addressType is not null)
+                        if (addressType != null)
                         {
                             foundAddresses.Add(new Address()
                             {
