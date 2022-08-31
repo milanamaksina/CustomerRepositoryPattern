@@ -16,7 +16,6 @@
                 <th class="text-center">State</th>
                 <th class="text-center">Country</th>
                 <th class="text-center"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></th>
-                <th class="text-center"><a class="btn btn-danger" href="AddressDeleteAll.aspx">Delete All</a></th>
             </tr>
         </thead>
         <tbody>
@@ -30,7 +29,7 @@
                         <td><%=address.AddressType %></td>
                         <td><%=address.City %></td>
                         <td><%=address.PostalCode %></td>
-                        <td><%=address.StateName %></td>
+                        <td><%=address.State %></td>
                         <td><%=address.Country %></td>
                         <td><a class="btn btn-default" href="AddressEdit.aspx?addressId=<%=address.AddressId %>">Edit</a></td>
                         <td><a class="btn btn-danger" href="AddressDelete.aspx?addressId=<%=address.AddressId %>">Delete</a></td>
@@ -40,6 +39,7 @@
     </table>
      <div class="text-center">
         <a runat="server" class="btn btn-success" href="AddressEdit.aspx">Add new address</a>
+        <a class="btn btn-danger" href="AddressDeleteAll.aspx">Delete All</a>
     </div>
 
 </asp:Content>

@@ -204,7 +204,7 @@ namespace CustomerRepositoryPattern.Repositories
             using (var connection = GetConnection())
             {
                 connection.Open();
-                var command = new SqlCommand("SELECT * FROM Addresses", connection);
+                var command = new SqlCommand("SELECT * FROM Address", connection);
                 using (var reader = command.ExecuteReader())
                 {
                     while (reader.Read())
