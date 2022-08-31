@@ -72,3 +72,5 @@ C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\Custom
 C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositoryPattern.WebForms\obj\Debug\CustomerRepositoryPattern.WebForms.csproj.CopyComplete
 C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositoryPattern.WebForms\obj\Debug\CustomerRepositoryPattern.WebForms.dll
 C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositoryPattern.WebForms\obj\Debug\CustomerRepositoryPattern.WebForms.pdb
+C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositoryPattern.WebForms\bin\CustomerRepositoryPattern.dll
+C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositoryPattern.WebForms\bin\CustomerRepositoryPattern.pdb
