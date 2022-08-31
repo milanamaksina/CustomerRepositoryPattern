@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerRepositoryPattern",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerRepositoryPattern.Tests", "CustomerRepositoryPattern.Tests\CustomerRepositoryPattern.Tests.csproj", "{80B69F27-4F50-4CBD-96AB-C634C9581A5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerRepositoryPattern.WebForms", "CustomerRepositoryPattern.WebForms\CustomerRepositoryPattern.WebForms.csproj", "{021EE3FB-AB0E-4B3C-AD14-6AF9E3A789F4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerRepositortPattern.Mvc", "CustomerRepositortPattern.Mvc\CustomerRepositortPattern.Mvc.csproj", "{C41096FC-F8EA-4BAE-B285-C29A24FAC76E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{80B69F27-4F50-4CBD-96AB-C634C9581A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80B69F27-4F50-4CBD-96AB-C634C9581A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80B69F27-4F50-4CBD-96AB-C634C9581A5D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{021EE3FB-AB0E-4B3C-AD14-6AF9E3A789F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{021EE3FB-AB0E-4B3C-AD14-6AF9E3A789F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{021EE3FB-AB0E-4B3C-AD14-6AF9E3A789F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{021EE3FB-AB0E-4B3C-AD14-6AF9E3A789F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C41096FC-F8EA-4BAE-B285-C29A24FAC76E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C41096FC-F8EA-4BAE-B285-C29A24FAC76E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C41096FC-F8EA-4BAE-B285-C29A24FAC76E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C41096FC-F8EA-4BAE-B285-C29A24FAC76E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
