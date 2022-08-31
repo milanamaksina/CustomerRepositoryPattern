@@ -25,8 +25,8 @@
                         <td><%=customer.Email%></td>
                         <td><%=customer.Notes%></td>
                         <td><%=customer.TotalPurchasesAmount%></td>
-                        <td><a class="btn btn-default" href="CustomerEdit.aspx?customerID=<%=customer.CustomerId %>">Edit</a></td>
-                        <td><a class="btn btn-default" href="CustomerDelete.aspx?customerID=<%=customer.CustomerId %>">Delete</a></td>
+                        <td><a class="btn btn-default" href="CustomerEdit.aspx?customerId=<%=customer.CustomerId %>">Edit</a></td>
+                        <td><a class="btn btn-default" href="CustomerDelete.aspx?customerId=<%=customer.CustomerId %>">Delete</a></td>
                     </tr>
                 <%} %>
         </tbody>

@@ -106,12 +106,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="AddressList.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="CustomerDelete.aspx" />
+    <Content Include="CustomerEdit.aspx" />
     <Content Include="CustomerList.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
@@ -161,6 +164,13 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddressList.aspx.cs">
+      <DependentUpon>AddressList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddressList.aspx.designer.cs">
+      <DependentUpon>AddressList.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -176,6 +186,20 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerDelete.aspx.cs">
+      <DependentUpon>CustomerDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerDelete.aspx.designer.cs">
+      <DependentUpon>CustomerDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerEdit.aspx.cs">
+      <DependentUpon>CustomerEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerEdit.aspx.designer.cs">
+      <DependentUpon>CustomerEdit.aspx</DependentUpon>
     </Compile>
     <Compile Include="CustomerList.aspx.cs">
       <DependentUpon>CustomerList.aspx</DependentUpon>
