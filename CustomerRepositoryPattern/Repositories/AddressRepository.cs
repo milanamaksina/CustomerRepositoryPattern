@@ -198,12 +198,35 @@ namespace CustomerRepositoryPattern.Repositories
             }
         }
 
-
-
-
         public List<Address> GetAll()
         {
-            throw new NotImplementedException();
+            List<Address> addresses = new List<Address>();
+            using (var connection = GetConnection())
+            {
+                connection.Open();
+                var command = new SqlCommand(
+                 "SELECT * FROM [Address]", connection);
+
+                using (var reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        addresses.Add(new Address
+                        {
+                            AddressId = Convert.ToInt32(reader["AddressId"]),
+                            CustomerId = Convert.ToInt32(reader["CustomerId"]),
+                            AddressLine = reader["AddressLine"].ToString(),
+                            AddressLine2 = reader["AddressLine2"].ToString(),
+                            AddressType = reader["AddressType"].ToString(),
+                            City = reader["City"].ToString(),
+                            PostalCode = reader["PostalCode"].ToString(),
+                            State = reader["State"].ToString(),
+                            Country = reader["Country"].ToString()
+                        });
+                    }
+                }
+                return addresses;
+            }
         }
 
         public List<Address> GetCustomerAddresses(int customerId)
@@ -228,6 +251,7 @@ namespace CustomerRepositoryPattern.Repositories
                         addresses.Add(new Address
                         {
                             AddressId = Convert.ToInt32(reader["AddressId"]),
+                            CustomerId = Convert.ToInt32(reader["CustomerId"]),
                             AddressLine = reader["AddressLine"].ToString(),
                             AddressLine2 = reader["AddressLine2"].ToString(),
                             AddressType = reader["AddressType"].ToString(),

@@ -1,3 +1,5 @@
+C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositortPattern.Mvc\obj\Debug\CustomerRepositortPattern.Mvc.csproj.AssemblyReference.cache
+C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositortPattern.Mvc\obj\Debug\CustomerRepositortPattern.Mvc.csproj.CoreCompileInputs.cache
 C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositortPattern.Mvc\bin\CustomerRepositortPattern.Mvc.dll.config
 C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositortPattern.Mvc\bin\CustomerRepositortPattern.Mvc.dll
 C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositortPattern.Mvc\bin\CustomerRepositortPattern.Mvc.pdb
@@ -51,6 +53,7 @@ C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\Custom
 C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositortPattern.Mvc\bin\roslyn\VBCSCompiler.exe
 C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositortPattern.Mvc\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositortPattern.Mvc\bin\Antlr3.Runtime.dll
+C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositortPattern.Mvc\bin\CustomerRepositoryPattern.dll
 C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositortPattern.Mvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositortPattern.Mvc\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositortPattern.Mvc\bin\Newtonsoft.Json.dll
@@ -62,6 +65,7 @@ C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\Custom
 C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositortPattern.Mvc\bin\System.Web.WebPages.dll
 C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositortPattern.Mvc\bin\System.Web.WebPages.Razor.dll
 C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositortPattern.Mvc\bin\WebGrease.dll
+C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositortPattern.Mvc\bin\CustomerRepositoryPattern.pdb
 C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositortPattern.Mvc\bin\System.Web.Helpers.xml
 C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositortPattern.Mvc\bin\System.Web.Mvc.xml
 C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositortPattern.Mvc\bin\System.Web.Optimization.xml
@@ -72,10 +76,10 @@ C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\Custom
 C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositortPattern.Mvc\bin\Newtonsoft.Json.xml
 C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositortPattern.Mvc\bin\Antlr3.Runtime.pdb
 C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositortPattern.Mvc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositortPattern.Mvc\obj\Debug\CustomerRepositortPattern.Mvc.csproj.AssemblyReference.cache
-C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositortPattern.Mvc\obj\Debug\CustomerRepositortPattern.Mvc.csproj.CoreCompileInputs.cache
 C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositortPattern.Mvc\obj\Debug\CustomerRepositortPattern.Mvc.csproj.CopyComplete
 C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositortPattern.Mvc\obj\Debug\CustomerRepositortPattern.Mvc.dll
 C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositortPattern.Mvc\obj\Debug\CustomerRepositortPattern.Mvc.pdb
-C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositortPattern.Mvc\bin\CustomerRepositoryPattern.dll
-C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositortPattern.Mvc\bin\CustomerRepositoryPattern.pdb
+C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositortPattern.Mvc\bin\PagedList.dll
+C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositortPattern.Mvc\bin\PagedList.Mvc.dll
+C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositortPattern.Mvc\bin\PagedList.xml
+C:\Users\marim\OneDrive\Рабочий стол\CustomerRepositoryPattern\CustomerRepositortPattern.Mvc\bin\PagedList.Mvc.xml

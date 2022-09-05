@@ -1,18 +1,25 @@
 ﻿using CustomerRepositoryPattern.Entities;
 using CustomerRepositoryPattern.Repositories;
 using CustomerRepositoryPattern.Services;
+using PagedList;
+using System;
 using System.Dynamic;
 using System.Web.Mvc;
+using System.Web.Mvc;
+
 
 namespace CustomerRepositortPattern.Mvc.Controllers
 {
     public class CustomerController : Controller
     {
         private readonly ICustomerService _customerService;
+        private readonly IAddressService _addressService;
+        
 
         public CustomerController()
         {
             _customerService = new CustomerService();
+            _addressService = new AddressService();
         }
 
         // GET: Customer
@@ -21,7 +28,7 @@ namespace CustomerRepositortPattern.Mvc.Controllers
             var customers = _customerService.GetCustomers();
             return View(customers);
         }
-        
+
 
         // GET: Customer/Details/5
         public ActionResult GetCustomerById(int id)
@@ -33,6 +40,14 @@ namespace CustomerRepositortPattern.Mvc.Controllers
         {
             return View();
         }
+
+        public ActionResult Details(int id)
+        {
+            var addresses = _customerService.GetCustomerAddresses(id);
+            if (addresses == null) return View("Empty");
+            return View(addresses);
+        }
+
 
         // POST: Customer/Create
         [HttpPost]

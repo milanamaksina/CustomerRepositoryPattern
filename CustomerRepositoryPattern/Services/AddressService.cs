@@ -38,6 +38,11 @@ namespace CustomerRepositoryPattern.Services
             throw new NotImplementedException();
         }
 
+        public IReadOnlyCollection<Address> GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
         public IReadOnlyCollection<Address> GetCustomerAddresses(int id)
         {
            var addresses = _addressRepository.GetCustomerAddresses(id);

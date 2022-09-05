@@ -151,9 +151,6 @@ namespace CustomerRepositoryPattern.Tests
         }
 
 
-
-
-
         private Customer CreateMockCustomer()
         {
             var customer = new Customer();

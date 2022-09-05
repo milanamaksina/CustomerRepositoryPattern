@@ -11,5 +11,6 @@ namespace CustomerRepositoryPattern.Services
         IReadOnlyCollection<Address> GetCustomerAddresses(int id);
         Address Update(Address address);
         void Delete(int id);
+        IReadOnlyCollection<Address> GetAll();
     }
 }
