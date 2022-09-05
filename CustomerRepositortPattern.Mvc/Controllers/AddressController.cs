@@ -1,47 +1,54 @@
 ﻿using CustomerRepositoryPattern.Entities;
-using CustomerRepositoryPattern.Repositories;
 using CustomerRepositoryPattern.Services;
-using System.Dynamic;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
 using System.Web.Mvc;
 
 namespace CustomerRepositortPattern.Mvc.Controllers
 {
-    public class CustomerController : Controller
+    public class AddressController : Controller
     {
-        private readonly ICustomerService _customerService;
+        private readonly IAddressService _addressService;
 
-        public CustomerController()
+        public AddressController()
         {
-            _customerService = new CustomerService();
+            _addressService = new AddressService();
         }
 
-        // GET: Customer
+        // GET: Address
         public ActionResult Index()
         {
-            var customers = _customerService.GetCustomers();
-            return View(customers);
+            return View();
         }
-        
 
-        // GET: Customer/Details/5
-        public ActionResult GetCustomerById(int id)
+        // GET: Address/Details/5
+        public ActionResult Details(int id)
         {
-            var addresses = _customerService.GetCustomerAddresses(id);
-            return View(addresses);
+            return View();
         }
+
+        // GET: Address/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Customer/Create
+        // POST: Address/Create
         [HttpPost]
-        public ActionResult Create(Customer customer)
+        public ActionResult Create(int customerId, Address address)
         {
             try
             {
-                _customerService.Create(customer);
-                return (RedirectToAction("Index"));
+                if (!this.ModelState.IsValid)
+                {
+                    ViewBag.ErrorMessage = "Invalid value";
+                    return View();
+                }
+                _addressService.Create(address);
+
+                return RedirectToAction("Details", "Customer", new { id = customerId });
             }
             catch
             {
@@ -49,19 +56,20 @@ namespace CustomerRepositortPattern.Mvc.Controllers
             }
         }
 
-        // GET: Customer/Edit/5
+        // GET: Address/Edit/5
         public ActionResult Edit(int id)
         {
             return View();
         }
 
-        // POST: Customer/Edit/5
+        // POST: Address/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, Customer customer)
+        public ActionResult Edit(int id, FormCollection collection)
         {
             try
             {
-                _customerService.Update(customer);
+                // TODO: Add update logic here
+
                 return RedirectToAction("Index");
             }
             catch
@@ -70,20 +78,20 @@ namespace CustomerRepositortPattern.Mvc.Controllers
             }
         }
 
-        // GET: Customer/Delete/5
+        // GET: Address/Delete/5
         public ActionResult Delete(int id)
         {
-
             return View();
         }
 
-        // POST: Customer/Delete/5
+        // POST: Address/Delete/5
         [HttpPost]
         public ActionResult Delete(int id, FormCollection collection)
         {
             try
             {
-                _customerService.Delete(id);
+                // TODO: Add delete logic here
+
                 return RedirectToAction("Index");
             }
             catch

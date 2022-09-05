@@ -110,7 +110,7 @@ namespace CustomerRepositoryPattern.Repositories
             return null;
 
         }
-        
+
         public List<Address> ReadAll()
         {
             List<Address> foundAddresses = new List<Address>();
@@ -158,11 +158,11 @@ namespace CustomerRepositoryPattern.Repositories
                 var command = new SqlCommand("UPDATE [Address] SET CustomerId=@CustomerId, AddressLine = @AddressLine, AddressLine2 = @AddressLine2, AddressType = @AddressType, " +
                     "City = @City, PostalCode = @PostalCode, [State] = @State, Country = @Country " +
                     "WHERE AddressId = @AddressId", connection);
-                command.Parameters.Add(new SqlParameter("@AddressId", SqlDbType.Int) { Value = address.AddressId});
-                command.Parameters.Add(new SqlParameter("@CustomerId", SqlDbType.Int) { Value = address.CustomerId});
+                command.Parameters.Add(new SqlParameter("@AddressId", SqlDbType.Int) { Value = address.AddressId });
+                command.Parameters.Add(new SqlParameter("@CustomerId", SqlDbType.Int) { Value = address.CustomerId });
                 command.Parameters.Add(new SqlParameter("@AddressLine", SqlDbType.NVarChar, 100) { Value = address.AddressLine });
                 command.Parameters.Add(new SqlParameter("@AddressLine2", SqlDbType.NVarChar, 100) { Value = address.AddressLine2 });
-                command.Parameters.Add(new SqlParameter("@AddressType", SqlDbType.VarChar, 8) { Value = address.AddressType});
+                command.Parameters.Add(new SqlParameter("@AddressType", SqlDbType.VarChar, 8) { Value = address.AddressType });
                 command.Parameters.Add(new SqlParameter("@City", SqlDbType.NVarChar, 50) { Value = address.City });
                 command.Parameters.Add(new SqlParameter("@PostalCode", SqlDbType.VarChar, 6) { Value = address.PostalCode });
                 command.Parameters.Add(new SqlParameter("@State", SqlDbType.NVarChar, 20) { Value = address.State });
@@ -198,13 +198,29 @@ namespace CustomerRepositoryPattern.Repositories
             }
         }
 
+
+
+
         public List<Address> GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Address> GetCustomerAddresses(int customerId)
         {
             List<Address> addresses = new List<Address>();
             using (var connection = GetConnection())
             {
                 connection.Open();
-                var command = new SqlCommand("SELECT * FROM Address", connection);
+                var command = new SqlCommand(
+                 "SELECT * FROM [Address] WHERE CustomerId=@CustomerId", connection);
+
+                var CustomerIdParam = new SqlParameter("@CustomerId", SqlDbType.Int)
+                {
+                    Value = customerId
+                };
+                command.Parameters.Add(CustomerIdParam);
+
                 using (var reader = command.ExecuteReader())
                 {
                     while (reader.Read())
@@ -212,7 +228,6 @@ namespace CustomerRepositoryPattern.Repositories
                         addresses.Add(new Address
                         {
                             AddressId = Convert.ToInt32(reader["AddressId"]),
-                            CustomerId = Convert.ToInt32(reader["CustomerId"]),
                             AddressLine = reader["AddressLine"].ToString(),
                             AddressLine2 = reader["AddressLine2"].ToString(),
                             AddressType = reader["AddressType"].ToString(),
@@ -226,6 +241,5 @@ namespace CustomerRepositoryPattern.Repositories
                 return addresses;
             }
         }
-
     }
 }

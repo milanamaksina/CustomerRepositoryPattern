@@ -13,5 +13,6 @@ namespace CustomerRepositoryPattern.Interfaces
         void Update(TEntity entity);
         void Delete(int entityId);
         List<TEntity> GetAll();
+        List<TEntity> GetCustomerAddresses(int customerId);
     }
 }

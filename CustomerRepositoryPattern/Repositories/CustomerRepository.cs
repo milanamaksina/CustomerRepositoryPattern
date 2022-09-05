@@ -230,5 +230,9 @@ namespace CustomerRepositoryPattern.Repositories
             }
         }
 
+        public List<Customer> GetCustomerAddresses(int customerId)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
