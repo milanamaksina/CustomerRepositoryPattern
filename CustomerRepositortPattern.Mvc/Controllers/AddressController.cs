@@ -11,10 +11,11 @@ namespace CustomerRepositortPattern.Mvc.Controllers
     public class AddressController : Controller
     {
         private readonly IAddressService _addressService;
-
+        private readonly ICustomerService _customerService;
         public AddressController()
         {
             _addressService = new AddressService();
+            _customerService = new CustomerService();   
         }
 
         // GET: Address
@@ -56,6 +57,14 @@ namespace CustomerRepositortPattern.Mvc.Controllers
             }
         }
 
+        public ActionResult TheBad()
+        {
+            var model = _customerService.GetCustomers();
+            ViewData["Customers"] = from customer in _customerService.GetCustomers()
+                                    select new SelectListItem { Text = customer.LastName, Value = customer.CustomerId.ToString() };
+            return View(model);
+        }
+
         // GET: Address/Edit/5
         public ActionResult Edit(int id)
         {
@@ -64,13 +73,13 @@ namespace CustomerRepositortPattern.Mvc.Controllers
 
         // POST: Address/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
+        public ActionResult Edit(int id, Address address)
         {
             try
             {
-                // TODO: Add update logic here
+                _addressService.Update(address);
 
-                return RedirectToAction("Index");
+                return RedirectToAction("Index", "Customer");
             }
             catch
             {
@@ -79,18 +88,13 @@ namespace CustomerRepositortPattern.Mvc.Controllers
         }
 
         // GET: Address/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
         // POST: Address/Delete/5
         [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
+        public ActionResult Delete(int id)
         {
             try
             {
-                // TODO: Add delete logic here
+               _addressService.Delete(id);
 
                 return RedirectToAction("Index");
             }
