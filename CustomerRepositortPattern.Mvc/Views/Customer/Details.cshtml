@@ -12,6 +12,9 @@
 <table class="table">
     <tr>
         <th>
+            @Html.DisplayNameFor(model => model.AddressId)
+        </th>
+        <th>
             @Html.DisplayNameFor(model => model.CustomerId)
         </th>
         <th>
@@ -42,6 +45,8 @@
     {
         <tr>
             <td>
+                @Html.DisplayFor(modelItem => item.AddressId)
+            <td>
                 @Html.DisplayFor(modelItem => item.CustomerId)
             </td>
             <td>
@@ -66,8 +71,8 @@
                 @Html.DisplayFor(modelItem => item.Country)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", "Address", new { id = item.AddressId }) |
-                @Html.ActionLink("Delete", "Delete", "Address", new { id = item.AddressId })
+                @Html.ActionLink("Edit", "EditAddress", "Address", new { id = item.AddressId }, null) |
+                @Html.ActionLink("Delete", "DeleteAddress", "Address", new { id = item.AddressId }, null)
             </td>
         </tr>
     }

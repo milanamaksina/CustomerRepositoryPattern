@@ -177,8 +177,8 @@
     <Content Include="Views\Customer\Create.cshtml" />
     <Content Include="Views\Customer\Details.cshtml" />
     <Content Include="Views\Address\Create.cshtml" />
-    <Content Include="Views\Address\Edit.cshtml" />
-    <Content Include="Views\Address\Delete.cshtml" />
+    <Content Include="Views\Address\DeleteAddress.cshtml" />
+    <Content Include="Views\Address\EditAddress.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

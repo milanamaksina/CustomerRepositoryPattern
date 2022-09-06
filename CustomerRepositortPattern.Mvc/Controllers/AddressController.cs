@@ -66,20 +66,26 @@ namespace CustomerRepositortPattern.Mvc.Controllers
         }
 
         // GET: Address/Edit/5
-        public ActionResult Edit(int id)
+        public ActionResult EditAddress(int id)
         {
             return View();
         }
 
         // POST: Address/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, Address address)
+        public ActionResult EditAddress(int id, int? customerId, Address address)
         {
             try
             {
+                address.AddressId = id;
+                if (!this.ModelState.IsValid)
+                {
+                    ViewBag.ErrorMessage = "Enter valid values!";
+                    return View(address);
+                }
                 _addressService.Update(address);
 
-                return RedirectToAction("Index", "Customer");
+                return RedirectToAction("Details", "Customer", new { id = customerId });
             }
             catch
             {
@@ -88,15 +94,24 @@ namespace CustomerRepositortPattern.Mvc.Controllers
         }
 
         // GET: Address/Delete/5
+        public ActionResult DeleteAddress(int id)
+        {
+            return View();
+        }
+
         // POST: Address/Delete/5
         [HttpPost]
-        public ActionResult Delete(int id)
+        public ActionResult DeleteAddress(int id, int? customerId)
         {
             try
             {
-               _addressService.Delete(id);
+                _addressService.Delete(id);
 
-                return RedirectToAction("Index");
+                if (customerId.HasValue)
+                {
+                    return RedirectToAction("Details", "Customer", new { id = customerId });
+                }
+                else return View(); ;
             }
             catch
             {
