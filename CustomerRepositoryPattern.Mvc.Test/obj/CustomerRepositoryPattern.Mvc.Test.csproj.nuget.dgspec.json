@@ -1,0 +1,152 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\marim\\OneDrive\\Рабочий стол\\CustomerRepositoryPattern\\CustomerRepositoryPattern.Mvc.Test\\CustomerRepositoryPattern.Mvc.Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\marim\\OneDrive\\Рабочий стол\\CustomerRepositoryPattern\\CustomerRepositortPattern.Mvc\\CustomerRepositortPattern.Mvc.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marim\\OneDrive\\Рабочий стол\\CustomerRepositoryPattern\\CustomerRepositortPattern.Mvc\\CustomerRepositortPattern.Mvc.csproj",
+        "projectName": "CustomerRepositortPattern.Mvc",
+        "projectPath": "C:\\Users\\marim\\OneDrive\\Рабочий стол\\CustomerRepositoryPattern\\CustomerRepositortPattern.Mvc\\CustomerRepositortPattern.Mvc.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\marim\\OneDrive\\Рабочий стол\\CustomerRepositoryPattern\\CustomerRepositoryPattern\\CustomerRepositoryPattern.csproj": {
+                "projectPath": "C:\\Users\\marim\\OneDrive\\Рабочий стол\\CustomerRepositoryPattern\\CustomerRepositoryPattern\\CustomerRepositoryPattern.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\marim\\OneDrive\\Рабочий стол\\CustomerRepositoryPattern\\CustomerRepositoryPattern.Mvc.Test\\CustomerRepositoryPattern.Mvc.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marim\\OneDrive\\Рабочий стол\\CustomerRepositoryPattern\\CustomerRepositoryPattern.Mvc.Test\\CustomerRepositoryPattern.Mvc.Test.csproj",
+        "projectName": "CustomerRepositoryPattern.Mvc.Test",
+        "projectPath": "C:\\Users\\marim\\OneDrive\\Рабочий стол\\CustomerRepositoryPattern\\CustomerRepositoryPattern.Mvc.Test\\CustomerRepositoryPattern.Mvc.Test.csproj",
+        "packagesPath": "C:\\Users\\marim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marim\\OneDrive\\Рабочий стол\\CustomerRepositoryPattern\\CustomerRepositoryPattern.Mvc.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\marim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {
+              "C:\\Users\\marim\\OneDrive\\Рабочий стол\\CustomerRepositoryPattern\\CustomerRepositortPattern.Mvc\\CustomerRepositortPattern.Mvc.csproj": {
+                "projectPath": "C:\\Users\\marim\\OneDrive\\Рабочий стол\\CustomerRepositoryPattern\\CustomerRepositortPattern.Mvc\\CustomerRepositortPattern.Mvc.csproj"
+              },
+              "C:\\Users\\marim\\OneDrive\\Рабочий стол\\CustomerRepositoryPattern\\CustomerRepositoryPattern\\CustomerRepositoryPattern.csproj": {
+                "projectPath": "C:\\Users\\marim\\OneDrive\\Рабочий стол\\CustomerRepositoryPattern\\CustomerRepositoryPattern\\CustomerRepositoryPattern.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "PagedList": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\marim\\OneDrive\\Рабочий стол\\CustomerRepositoryPattern\\CustomerRepositoryPattern\\CustomerRepositoryPattern.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marim\\OneDrive\\Рабочий стол\\CustomerRepositoryPattern\\CustomerRepositoryPattern\\CustomerRepositoryPattern.csproj",
+        "projectName": "CustomerRepositoryPattern",
+        "projectPath": "C:\\Users\\marim\\OneDrive\\Рабочий стол\\CustomerRepositoryPattern\\CustomerRepositoryPattern\\CustomerRepositoryPattern.csproj",
+        "packagesPath": "C:\\Users\\marim\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marim\\OneDrive\\Рабочий стол\\CustomerRepositoryPattern\\CustomerRepositoryPattern\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\marim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

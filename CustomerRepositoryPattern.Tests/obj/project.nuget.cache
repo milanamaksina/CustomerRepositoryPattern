@@ -1,12 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "N7BAc9+UxjoJwAq/Nvu0a4Kk6jzdf8T9MRkzXsahpRHuvxyX5DAd1/gM9X1BNxeWBREg3QwUAvjPmm8+fDOxig==",
+  "dgSpecHash": "Fm7oSZyFkzx/I899j1TVPC69chmISM0P+UV5Fe6NITueYRGp+E/mpNqAXTb2R9OEz+9Y8CMuBp0gM6DuVpNTAg==",
   "success": true,
   "projectFilePath": "C:\\Users\\marim\\OneDrive\\Рабочий стол\\CustomerRepositoryPattern\\CustomerRepositoryPattern.Tests\\CustomerRepositoryPattern.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marim\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
+    "C:\\Users\\marim\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.7\\microsoft.aspnet.mvc.5.2.7.nupkg.sha512",
+    "C:\\Users\\marim\\.nuget\\packages\\microsoft.aspnet.razor\\3.2.7\\microsoft.aspnet.razor.3.2.7.nupkg.sha512",
+    "C:\\Users\\marim\\.nuget\\packages\\microsoft.aspnet.webpages\\3.2.7\\microsoft.aspnet.webpages.3.2.7.nupkg.sha512",
     "C:\\Users\\marim\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
     "C:\\Users\\marim\\.nuget\\packages\\microsoft.net.test.sdk\\17.1.0\\microsoft.net.test.sdk.17.1.0.nupkg.sha512",
+    "C:\\Users\\marim\\.nuget\\packages\\microsoft.web.infrastructure\\1.0.0\\microsoft.web.infrastructure.1.0.0.nupkg.sha512",
+    "C:\\Users\\marim\\.nuget\\packages\\mstest.testframework\\2.2.10\\mstest.testframework.2.2.10.nupkg.sha512",
     "C:\\Users\\marim\\.nuget\\packages\\system.data.sqlclient\\4.8.3\\system.data.sqlclient.4.8.3.nupkg.sha512",
     "C:\\Users\\marim\\.nuget\\packages\\xunit\\2.4.1\\xunit.2.4.1.nupkg.sha512",
     "C:\\Users\\marim\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",

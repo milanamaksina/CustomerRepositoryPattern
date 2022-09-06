@@ -4,6 +4,25 @@
     "C:\\Users\\marim\\OneDrive\\Рабочий стол\\CustomerRepositoryPattern\\CustomerRepositoryPattern.Tests\\CustomerRepositoryPattern.Tests.csproj": {}
   },
   "projects": {
+    "C:\\Users\\marim\\OneDrive\\Рабочий стол\\CustomerRepositoryPattern\\CustomerRepositortPattern.Mvc\\CustomerRepositortPattern.Mvc.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marim\\OneDrive\\Рабочий стол\\CustomerRepositoryPattern\\CustomerRepositortPattern.Mvc\\CustomerRepositortPattern.Mvc.csproj",
+        "projectName": "CustomerRepositortPattern.Mvc",
+        "projectPath": "C:\\Users\\marim\\OneDrive\\Рабочий стол\\CustomerRepositoryPattern\\CustomerRepositortPattern.Mvc\\CustomerRepositortPattern.Mvc.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\marim\\OneDrive\\Рабочий стол\\CustomerRepositoryPattern\\CustomerRepositoryPattern\\CustomerRepositoryPattern.csproj": {
+                "projectPath": "C:\\Users\\marim\\OneDrive\\Рабочий стол\\CustomerRepositoryPattern\\CustomerRepositoryPattern\\CustomerRepositoryPattern.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\marim\\OneDrive\\Рабочий стол\\CustomerRepositoryPattern\\CustomerRepositoryPattern.Tests\\CustomerRepositoryPattern.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -32,6 +51,9 @@
           "net472": {
             "targetAlias": "net472",
             "projectReferences": {
+              "C:\\Users\\marim\\OneDrive\\Рабочий стол\\CustomerRepositoryPattern\\CustomerRepositortPattern.Mvc\\CustomerRepositortPattern.Mvc.csproj": {
+                "projectPath": "C:\\Users\\marim\\OneDrive\\Рабочий стол\\CustomerRepositoryPattern\\CustomerRepositortPattern.Mvc\\CustomerRepositortPattern.Mvc.csproj"
+              },
               "C:\\Users\\marim\\OneDrive\\Рабочий стол\\CustomerRepositoryPattern\\CustomerRepositoryPattern\\CustomerRepositoryPattern.csproj": {
                 "projectPath": "C:\\Users\\marim\\OneDrive\\Рабочий стол\\CustomerRepositoryPattern\\CustomerRepositoryPattern\\CustomerRepositoryPattern.csproj"
               }
@@ -48,6 +70,14 @@
         "net472": {
           "targetAlias": "net472",
           "dependencies": {
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.1.0, )"
