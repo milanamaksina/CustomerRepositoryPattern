@@ -12,6 +12,12 @@ namespace CustomerRepositortPattern.Mvc.Controllers
     {
         private readonly IAddressService _addressService;
         private readonly ICustomerService _customerService;
+
+        public AddressController(IAddressService addressService)
+        {
+            _addressService = addressService;
+        }
+
         public AddressController()
         {
             _addressService = new AddressService();
