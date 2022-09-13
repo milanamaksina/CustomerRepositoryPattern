@@ -1,5 +1,7 @@
 ﻿using CustomerRepositoryPattern.Entities;
 using CustomerRepositoryPattern.Interfaces;
+using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 
@@ -200,5 +202,37 @@ namespace CustomerRepositoryPattern.Repositories
             }
         }
 
+        public List<Customer> GetAll()
+        {
+            using (var connection = GetConnection())
+            {
+                var customers = new List<Customer>();
+                connection.Open();
+                var command = new SqlCommand("SELECT * FROM [Customer]", connection);
+
+                using (var reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        customers.Add(new Customer
+                        {
+                            CustomerId = Convert.ToInt32(reader["CustomerId"]),
+                            FirstName = reader["FirstName"].ToString(),
+                            LastName = reader["LastName"].ToString(),
+                            PhoneNumber = reader["PhoneNumber"].ToString(),
+                            Email = reader["Email"].ToString(),
+                            Notes = reader["Notes"].ToString(),
+                            TotalPurchasesAmount = Convert.ToDecimal(reader["TotalPurchasesAmount"])
+                        });
+                    }
+                }
+                return customers;
+            }
+        }
+
+        public List<Customer> GetCustomerAddresses(int customerId)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

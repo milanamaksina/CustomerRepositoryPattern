@@ -1,5 +1,6 @@
 using CustomerRepositoryPattern.Entities;
 using CustomerRepositoryPattern.Repositories;
+using Xunit;
 
 namespace CustomerRepositoryPattern.Tests
 {
@@ -148,9 +149,6 @@ namespace CustomerRepositoryPattern.Tests
             var deletedCustomer = customerRepository.Read(customerId);
             Assert.Null(deletedCustomer);
         }
-
-
-
 
 
         private Customer CreateMockCustomer()
